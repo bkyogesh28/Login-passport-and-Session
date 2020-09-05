@@ -1,12 +1,9 @@
-
 const mongoose=require('mongoose')
-
-mongoose.connect('mongodb://localhost:27017/login-pass',{
-    useCreateIndex:true,
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-    useFindAndModify:false
-},()=>{
-    console.log("Mongodb connected")
-})
-
+const db=require('../config/keys').MongoURI
+mongoose.connect(db,{useUnifiedTopology:true,useCreateIndex:true,useNewUrlParser:true})
+  .then(()=>{
+      console.log("Mongodb connected")
+  })
+  .catch((err)=>{
+      console.log(err)
+  })
