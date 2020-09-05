@@ -6,7 +6,7 @@ require('./config/passport')(passport)
 const flash=require('connect-flash')
 const session=require('express-session')
 const db=require('./db/mongoose')
-const port=process.env.PORT||3000
+const port=process.env.PORT||5000
 const app=express()
 //app.use(expresslayouts)
 app.set('view engine','ejs')
