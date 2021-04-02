@@ -65,3 +65,89 @@
     .bg-dark{
         background-color: blue;
     }
+    .paragraph{
+        margin-top: 30px;
+        font-family:'Courier New', Courier, monospace;
+        font-style: oblique;
+        font-size: x-large;
+        margin-left: 20px;
+    }
+    .pp{
+        font-size: large;
+        margin-left: 30px;
+        
+    }
+    .butt{
+       margin-left: 200px;
+       border: none;
+       width: 120px;
+       background-color: cornflowerblue;
+       color: cornsilk;
+       font-family:monospace;
+    
+       border-radius: 20px;
+       
+    }
+    .lab{
+        font-size: large;
+        color:black;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 20px;
+        font-weight: bolder;
+       
+    }
+    .tit{
+     border-color: yellowgreen ;
+     background-color: whitesmoke;
+     border-radius: 10px;
+     margin-left: 170px;
+    }
+    .area{
+        border-color:yellowgreen;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        
+    }
+   .container{
+    background-color: lightgrey;
+    width:300px;
+    border:#DCDDE1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+   }
+   .status{
+       margin-left:75%;
+       font-family:Arial, Helvetica, sans-serif;
+       font-style: oblique;
+       color:palevioletred;
+       font-stretch: semi-condensed;
+   }
+   .appli{
+       margin-left: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-stretch: semi-condensed;
+       color:palevioletred;
+       font-style: oblique;
+   }
+   .container1{
+    background-color:whitesmoke;
+    width:83%;
+    border:#DCDDE1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top:20px;
+   }
+   .rp{
+        margin-left: 10px;
+   }
+   .rs{
+       margin-left: 83%;
+       border:1px solid green ;
+       background-color: green;
+       color:white;
+       padding: 3px;
+       border-radius: 10px;
+   }

@@ -12,7 +12,7 @@
         
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(-225deg, #B6CEE8 0%, #C39BD3 100%);">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(-225deg, #68D6AA 0%, #68D6AA 100%);">
             <a class="navbar-brand" style="color:#273746" href="#">Dashboard</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -20,13 +20,15 @@
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="/logout">Logout</a>
+                <a href="/dashboard/blog">Create a Blog</a>
                 
               </div>
+             
               
              
               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
               
-            <div class="collapse navbar-collapse" id="navbarText">
+            <div class="collapse navbar-collapse"  id="navbarText">
               
             
               <span class="navbar-text" style="color:#273746">
@@ -35,7 +37,55 @@
             </div>
             <img  class="image"src="images/1.jpeg" alt=" ">
         </nav>
-       
+       <div class="paragraph">
+         <h3>Welcome to the Customer Page</h3>
+          <p class="pp">In this portal you can add a blog and post it to the admin and employee.If your application is selected then you will recieve a notification in this panel</p>
+       </div>
+       <div class="container">
+         <div class="row">
+         <div class="appli">
+           <span>Name of the Blog</span>
+         </div>
+        
+         <div class="status">
+           <span>Application Status</span>
+         </div>
+         </div>
+       </div>
+       <!-- <div class="container1">
+         <div class="row">
+           <div class="rp">
+             <span>Food Blog</span>
+           </div>
+           <div class="rs">
+             <span></span>
+           </div>
+         </div>
+       </div> -->
+       <!-- <div class="container1">
+        <div class="row">
+          <div class="rp">
+            <span>Food Blog</span>
+          </div>
+          <div class="rs">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <% for(var i = 0; i < v.length; i++) {%>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><%= user.name %></h5>
+              <p class="card-text"><%= v[i].blog %></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <% } %>
+      </div> -->
+      
                
     </body>
 </html>

@@ -2,6 +2,8 @@ const express=require('express')
 const Usermod=require('../models/user')
 const router=express.Router()
 const passport=require('passport')
+const  adminid="admin_123"
+const  adminpass="admin@!!!"
 router.get('/',(req,res)=>{
     res.render("register")
 })
